@@ -1,0 +1,13 @@
+language: "en"
+
+pipeline:
+- name: "nlp_spacy"
+- name: "tokenizer_spacy"
+- name: "intent_entity_featurizer_regex"
+- name: "ner_crf"
+  features: [
+              ["low", "title", "upper"],
+              ["bias", "low", "prefix5", "prefix2", "suffix5", "suffix3",
+               "suffix2", "upper", "title", "digit", "pattern"],
+              ["low", "title", "upper"]
+            ]

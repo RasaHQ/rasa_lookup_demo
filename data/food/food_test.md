@@ -1,0 +1,63 @@
+## intent:restaurant_search
+- Where can I find some [beans](food) for dinnder
+- Do they have [bananas](food)?
+- Find me a market that serves [cherries](food)
+- Does this pizza place have fresh [tomatos](food) or are they canned?
+- [Burritos](food) please, with extra [rice](food) and [guacamole](food)
+- [pizza](food) example?
+- i'm looking for a [sushi](food) place to eat
+- anywhere in the west
+- I want to grab [tacos](food)
+- Let's get something to eat.
+- I am searching for a place nearby
+- i'm looking for a place in the north of town
+- show me a mexican place in the centre with [chana masala](food) my favorite food
+- i am looking for an indian spot called olaolaolaolaolaola
+- search for restaurants
+- anywhere near 18328
+- I want something spicays.
+- Give me something with a good attitude.
+- [Fish](food) is on the menu?
+- what kind of [sausage](food) do they have?
+- Where is the closest restaurant?
+- I love you bot 
+- Could you help me find an [empanada](food) place?
+- Do you have fried [chicken](food)?
+- Help me out here.
+- [Bagels](food) are yum town
+- I'd really like [beef](food) and [pasta](food).
+- [Figs](food) are my jam.
+- What kind of [dim sum](food) is nearby?
+- Could you direct me to a [yogurt](food) shop?
+- Hungray for [doner kebab](food)
+- Feed me [beer] por favor.
+- Could go for some [pretzels].
+- Close restaurant for [gyros].
+- What's the cheapest area for getting a bite?
+- Do you know any hipster bars near?
+- Desire: [cheese](food)
+- Please help me find [chocolate](food) and maybe some [ice cream](food).
+- French
+- Cheap [bread](food)
+- I want a feast of [olives](food).
+- Send me to the nearest bakery.
+- Are there any good german restaurants in berlin?
+- I miss [bagels](food) actually.
+- I want [MEAT]!!!!
+- Something that has both cheap [tacos](food) and a great atmosphere.
+- Authentic [peking duck](food).
+- I want to eat healthier.
+- Do you think I could find anything close by that serves [hummus](food) by the liter?
+- I want that [coffee](food) to stay awake.
+- What's near me for lunch?
+- How many expensive restaurants are there in this town?
+- Find me a dinner place that accepts reservations.
+- [Avocados](food) are my favorite fruit and maybe my favorite food too.
+- I could use a [beef](food) [brisket](food)
+- How are the reviews for Made in China?
+- Do they have [spring rolls](food)?
+
+
+
+
+

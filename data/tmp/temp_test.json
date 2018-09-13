@@ -1,0 +1,1546 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "contact_sales",
+        "text": "I want to speak with sales"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "I would like to have a call with sales team"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "just gimme a call"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Ok I want to talk to your sales team immediately"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "i want a sales call"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "call sales"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "sales team"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "connect me to your sales department"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "let me call the sales team"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Please schedule a sales call"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "i need to speak to your sales team"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "let me talk to your sales people"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "i want to contact sales now"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "i need a call from sales"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "let me talk to your sales people! "
+      },
+      {
+        "intent": "contact_sales",
+        "text": "but I want a sales call"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "i choose the call"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "i want to connect to your sales team"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "I want to contact the sales team"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "next the sales contact"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "ok, well, then a sales call with the fabulous philipp wolf"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "I wanna talk to your sales people."
+      },
+      {
+        "intent": "contact_sales",
+        "text": "a salaes call with akela would be nice"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "I want a sales call"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "I want to buy the rasa platform"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "i want to talk to sales"
+      },
+      {
+        "intent": "enter_data",
+        "text": "a turtle"
+      },
+      {
+        "intent": "enter_data",
+        "text": "123@akela.com"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 6,
+            "end": 23,
+            "entity": "jobfunction",
+            "value": "software engineer",
+            "extractor": "ner_crf"
+          }
+        ],
+        "text": "I'm a software engineer"
+      },
+      {
+        "intent": "enter_data",
+        "text": "60 million INR"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "entity": "jobfunction",
+            "value": "engineer"
+          }
+        ],
+        "text": "engineer"
+      },
+      {
+        "intent": "enter_data",
+        "text": "it's alan@rasa.com"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "entity": "name",
+            "value": "Dayna Adriansen"
+          }
+        ],
+        "text": "Dayna Adriansen"
+      },
+      {
+        "intent": "enter_data",
+        "text": "between 100 to 200.000"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 6,
+            "end": 22,
+            "entity": "jobfunction",
+            "value": "python developer",
+            "extractor": "ner_crf"
+          }
+        ],
+        "text": "I'm a python developer"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "entity": "jobfunction",
+            "value": "dev",
+            "extractor": "ner_crf"
+          }
+        ],
+        "text": "im a dev"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "entity": "jobfunction",
+            "value": "developer"
+          }
+        ],
+        "text": "I'm the developer"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 5,
+            "end": 14,
+            "entity": "jobfunction",
+            "value": "developer",
+            "extractor": "ner_crf"
+          }
+        ],
+        "text": "i'm a developer"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 5,
+            "end": 18,
+            "entity": "jobfunction",
+            "value": "self emplayed"
+          }
+        ],
+        "text": "i am self emplayed"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 5,
+            "end": 25,
+            "entity": "jobfunction",
+            "value": "full stack developer"
+          }
+        ],
+        "text": "Im a full stack developer"
+      },
+      {
+        "intent": "enter_data",
+        "text": "oov"
+      },
+      {
+        "intent": "enter_data",
+        "text": "I want to build a health insurance bot"
+      },
+      {
+        "intent": "enter_data",
+        "text": "myemail@gmail.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "eliseboyd@gmail.com"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 6,
+            "end": 21,
+            "entity": "jobfunction",
+            "value": "race car driver",
+            "extractor": "ner_crf"
+          }
+        ],
+        "text": "i'm a race car driver"
+      },
+      {
+        "intent": "enter_data",
+        "text": "a akela bot"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "entity": "company",
+            "value": "reddit",
+            "extractor": "ner_crf"
+          }
+        ],
+        "text": "reddit"
+      },
+      {
+        "intent": "enter_data",
+        "text": "chengming@aliyun.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "maxmeier@firma.de"
+      },
+      {
+        "intent": "enter_data",
+        "text": "me@me.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "antonio@arte-consultores.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "100k"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "entity": "name",
+            "value": "jenny",
+            "extractor": "ner_crf"
+          }
+        ],
+        "text": "Jenny"
+      },
+      {
+        "intent": "enter_data",
+        "text": "a sales bot"
+      },
+      {
+        "intent": "enter_data",
+        "text": "akela@akela.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "10k"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Evaluate Rasa :-) "
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "entity": "company",
+            "value": "IBM"
+          }
+        ],
+        "text": "IBM"
+      },
+      {
+        "intent": "enter_data",
+        "text": "hh@hh.hh"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "entity": "company",
+            "value": "Club Mate",
+            "extractor": "ner_crf"
+          }
+        ],
+        "text": "Club Mate"
+      },
+      {
+        "intent": "enter_data",
+        "text": "a pizza bot"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "entity": "jobfunction",
+            "value": "CTO"
+          }
+        ],
+        "text": "CTO"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "entity": "name",
+            "value": "Scalable Minds",
+            "extractor": "ner_crf"
+          }
+        ],
+        "text": "Scalable Minds"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "entity": "name",
+            "value": "jim halpert",
+            "extractor": "ner_crf"
+          }
+        ],
+        "text": "Jim Halpert"
+      },
+      {
+        "intent": "enter_data",
+        "text": "the bot that helps you choose insurance for the car ;)"
+      },
+      {
+        "intent": "enter_data",
+        "text": "[Saswat Mohalik]](name)"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "entity": "name",
+            "value": "linda"
+          }
+        ],
+        "text": "linda"
+      },
+      {
+        "intent": "enter_data",
+        "text": "ok it's sam@gaus.co.uk"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "entity": "email",
+            "value": "philippsbitch@rasa.com",
+            "extractor": "ner_crf"
+          }
+        ],
+        "text": "philippsbitch@rasa.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "my emayl is yolo at yolo.de"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "entity": "jobfunction",
+            "value": "sales"
+          }
+        ],
+        "text": "i'm in sales"
+      },
+      {
+        "intent": "enter_data",
+        "text": "udo@udo.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "half a million"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 6,
+            "end": 15,
+            "entity": "jobfunction",
+            "value": "marketing",
+            "extractor": "ner_crf"
+          }
+        ],
+        "text": "im in marketing"
+      },
+      {
+        "intent": "enter_data",
+        "text": "We plan to build a sales bot to increase our sales by 500%."
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 11,
+            "end": 30,
+            "entity": "company",
+            "value": "Stanford University"
+          }
+        ],
+        "text": "I work for Stanford University"
+      },
+      {
+        "intent": "enter_data",
+        "text": "customer service automation"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 19,
+            "end": 22,
+            "entity": "ORG",
+            "value": "FAQ",
+            "extractor": "ner_spacy"
+          }
+        ],
+        "text": "I want to build an FAQ bot"
+      },
+      {
+        "intent": "enter_data",
+        "text": "around one millon euros"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "entity": "company",
+            "value": "allianz"
+          }
+        ],
+        "text": "allianz"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Philipp ist cool AG"
+      },
+      {
+        "intent": "enter_data",
+        "text": "i need a bot for customer service automation"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "entity": "name",
+            "value": "Christoph Galle"
+          }
+        ],
+        "text": "Christoph Galle"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "entity": "name",
+            "value": "Im Avinash",
+            "extractor": "ner_crf"
+          }
+        ],
+        "text": "Im Avinash"
+      },
+      {
+        "intent": "enter_data",
+        "text": "rian.emat@gmail.com"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "entity": "company",
+            "value": "Daimler"
+          }
+        ],
+        "text": "The name of the company is Daimler"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "entity": "name",
+            "value": "Ralph White"
+          }
+        ],
+        "text": "Ralph White"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Udo.AI"
+      },
+      {
+        "intent": "enter_data",
+        "text": "chief nerd at rasa technologies"
+      },
+      {
+        "intent": "enter_data",
+        "text": "health care"
+      },
+      {
+        "intent": "enter_data",
+        "text": "a bot which sends cute shiba pictures"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 4,
+            "end": 14,
+            "entity": "name",
+            "value": "Tom Miller"
+          }
+        ],
+        "text": "I'm Tom Miller"
+      },
+      {
+        "intent": "enter_data",
+        "text": "i don't have one"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "entity": "jobfunction",
+            "value": "ceo"
+          }
+        ],
+        "text": "ceo"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 7,
+            "end": 19,
+            "entity": "jobfunction",
+            "value": "project mgmt"
+          }
+        ],
+        "text": "I'm in project mgmt"
+      },
+      {
+        "intent": "enter_data",
+        "text": "chief lemonade officer"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 9,
+            "end": 27,
+            "entity": "company",
+            "value": "moabit yoga studio"
+          }
+        ],
+        "text": "it's the moabit yoga studio"
+      },
+      {
+        "intent": "enter_data",
+        "text": "idk"
+      },
+      {
+        "intent": "enter_data",
+        "text": "nothing"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 14,
+            "end": 17,
+            "entity": "CARDINAL",
+            "value": "one",
+            "extractor": "ner_spacy"
+          }
+        ],
+        "text": "we don't have one"
+      },
+      {
+        "intent": "enter_data",
+        "text": "akela@rasa.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "a@b.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "i'm a developer "
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "entity": "name",
+            "value": "philipp wolf",
+            "extractor": "ner_crf"
+          }
+        ],
+        "text": "Philipp Wolf"
+      },
+      {
+        "intent": "enter_data",
+        "text": "avinash"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "entity": "name",
+            "value": "Jean Felipe Oehrwald"
+          }
+        ],
+        "text": "Jean Felipe Oehrwald"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "entity": "name",
+            "value": "Linda",
+            "extractor": "ner_crf"
+          }
+        ],
+        "text": "Linda"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bot-fan@bots.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "my email is email@rasa.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "my email is akela@rasa.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "linda@rasa.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "big old bot"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "entity": "company",
+            "value": "douglas"
+          }
+        ],
+        "text": "douglas"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "entity": "name",
+            "value": "Patrick Gorre"
+          }
+        ],
+        "text": "Patrick Gorre"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "entity": "jobfunction",
+            "value": "software engineer",
+            "extractor": "ner_crf"
+          }
+        ],
+        "text": "software engineer"
+      },
+      {
+        "intent": "enter_data",
+        "text": "I work for oov"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 14,
+            "end": 17,
+            "entity": "company",
+            "value": "NYT"
+          }
+        ],
+        "text": "I work at the NYT"
+      },
+      {
+        "intent": "enter_data",
+        "text": "like 60 quid"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 7,
+            "end": 36,
+            "entity": "jobfunction",
+            "value": "head of business intelligence"
+          }
+        ],
+        "text": "I am a head of business intelligence"
+      },
+      {
+        "intent": "enter_data",
+        "text": "200 bucks"
+      },
+      {
+        "intent": "enter_data",
+        "text": "can you try alex+123@rasa.com instead?"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "entity": "name",
+            "value": "Yeshua Ha-Notsri",
+            "extractor": "ner_crf"
+          }
+        ],
+        "text": "Yeshua Ha-Notsri"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "entity": "company",
+            "value": "apple"
+          }
+        ],
+        "text": "it's a tech company, apple"
+      },
+      {
+        "intent": "enter_data",
+        "text": "200000000"
+      },
+      {
+        "intent": "enter_data",
+        "text": "akela's company"
+      },
+      {
+        "intent": "enter_data",
+        "text": "the bot should help with HR stuff"
+      },
+      {
+        "intent": "greet",
+        "text": "hey, let's talk"
+      },
+      {
+        "intent": "greet",
+        "text": "yoo"
+      },
+      {
+        "intent": "greet",
+        "text": "hello robot"
+      },
+      {
+        "intent": "greet",
+        "text": "hallo"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there it's me"
+      },
+      {
+        "intent": "greet",
+        "text": "hi again"
+      },
+      {
+        "intent": "greet",
+        "text": "jojojo"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "Hellllooooooo"
+      },
+      {
+        "intent": "greet",
+        "text": "hi "
+      },
+      {
+        "intent": "greet",
+        "text": "hello is anybody there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi friend"
+      },
+      {
+        "intent": "greet",
+        "text": "hiii"
+      },
+      {
+        "intent": "thank",
+        "text": "amazing, thanks"
+      },
+      {
+        "intent": "thank",
+        "text": "great thanks"
+      },
+      {
+        "intent": "thank",
+        "text": "Thanks bot"
+      },
+      {
+        "intent": "thank",
+        "text": "ok thanks!"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks for the help"
+      },
+      {
+        "intent": "thank",
+        "text": "thnks"
+      },
+      {
+        "intent": "deny",
+        "text": "I'm not going to give it to you"
+      },
+      {
+        "intent": "deny",
+        "text": "nah, i'm good"
+      },
+      {
+        "intent": "deny",
+        "text": "no ma'am"
+      },
+      {
+        "intent": "deny",
+        "text": "nah not for me"
+      },
+      {
+        "intent": "deny",
+        "text": "I'm not giving you my email address"
+      },
+      {
+        "intent": "deny",
+        "text": "nah"
+      },
+      {
+        "intent": "deny",
+        "text": "decline"
+      },
+      {
+        "intent": "deny",
+        "text": "i'm afraid not"
+      },
+      {
+        "intent": "deny",
+        "text": "no you did it wrong"
+      },
+      {
+        "intent": "mood_confirm",
+        "text": "great"
+      },
+      {
+        "intent": "mood_confirm",
+        "text": "hm, i'd like that"
+      },
+      {
+        "intent": "mood_confirm",
+        "text": "I'm sure I will! "
+      },
+      {
+        "intent": "mood_confirm",
+        "text": "amazing!"
+      },
+      {
+        "intent": "mood_confirm",
+        "text": "of course"
+      },
+      {
+        "intent": "mood_confirm",
+        "text": "y"
+      },
+      {
+        "intent": "mood_confirm",
+        "text": "Accept"
+      },
+      {
+        "intent": "mood_confirm",
+        "text": "I accept"
+      },
+      {
+        "intent": "mood_confirm",
+        "text": "yas"
+      },
+      {
+        "intent": "mood_confirm",
+        "text": "Yes"
+      },
+      {
+        "intent": "mood_confirm",
+        "text": "great!"
+      },
+      {
+        "intent": "mood_confirm",
+        "text": "ok cool"
+      },
+      {
+        "intent": "mood_confirm",
+        "text": "Great"
+      },
+      {
+        "intent": "mood_confirm",
+        "text": "Sweet"
+      },
+      {
+        "intent": "mood_confirm",
+        "text": "yay"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "add me to the newsletter"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "i prefer to get the newsletter"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "subscribe "
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "i want newsletter"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "get the newsletter"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "lets do the newsletter signup "
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "get a subscription"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "get the newsletter"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "first lets sign up for the newsletter"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "i need the newsletter"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "Sign up."
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "may i receive the newsletter from now on "
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "subscribe"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "newsletter"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "newsletter, here is my email: alex@rasa.com"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "subscribe hi@rasa.com to the newsletter"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "now i want to signup for the newsletter"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "newletter"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "can you subscribe me to the newsletter"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "I want the newsletter"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "newsletter pls"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "subscribe to the newsletter"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "i want to join the newsletter mails"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "do the newsletter then"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "talking to a bot is stupid "
+      },
+      {
+        "intent": "human_handoff",
+        "text": "let me speak with a real person please"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "Can I speak to anyone who can really help me?"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "i want to talk to someone else"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "customer service"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "can you forward me to your team"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "id like to talk to a real rasa employee"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "I want to talk to a human"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "udo, I want to marry you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "how are akela's cats doing?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "can you help me to build a bot"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "I don't wanna tell the name of my company"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "that link doesn't work! "
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "a tamed mouse will arrive at your doorstep in the next couple of days"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "help with akela"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "what?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "where do you live?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "oh my god, not again!"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "neither"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "but I just told you that :("
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "restaurants"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "can you help me with your docs"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i am hungry"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "can you help me with the docs?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "can we keep chatting?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "do you like football"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "show me a picture of a chicken"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i want a non dripping ice cream"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "you suck"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "why do you need that?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i want pizza"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "do you want to marry me?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Can I ask you questions first? "
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "what's good"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you doing today my sweet friend"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how is your evening"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you doing?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "are you okay"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how is it going"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Do you have a great day?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Ahoy matey how are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "are you alright"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "are you having a good day"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what's the weather today?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Are we in for a scorcher?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Looks like a beautiful day hey?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what\"s the weather"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Can we expect any thunderstorms?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "how's the weather ?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Is it hot or cold?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "how's the weather?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "how's the weather in berlin"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what can you do"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "anything els"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "so now what"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what can I do here"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "now what?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "I need some help"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what is this bot for"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "how can you help me?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "help please"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "tell me something you can do"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "can you share your boss with me?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who is your creator?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who made you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who built you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "and who built u?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "please tell me who created you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who made you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "how were you made?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who is your boss tell me"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who's your builder?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "are you a bot?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "who r u"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "are you a bot"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "what's your name bot"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "I want to know who you are"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "who is talking?"
+      },
+      {
+        "intent": "bye",
+        "text": "Bye bye"
+      },
+      {
+        "intent": "bye",
+        "text": "toodle-oo"
+      },
+      {
+        "intent": "bye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "bye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "bye",
+        "text": "bye . "
+      },
+      {
+        "intent": "bye",
+        "text": "farewell"
+      },
+      {
+        "intent": "ask_whatisrasa",
+        "text": "i want to know what rasa does"
+      },
+      {
+        "intent": "ask_whatisrasa",
+        "text": "Give me more information about Rasa"
+      },
+      {
+        "intent": "ask_whatisrasa",
+        "text": "i dont get what rasa is"
+      },
+      {
+        "intent": "ask_whatisrasa",
+        "text": "explain me what rasa is"
+      },
+      {
+        "intent": "ask_whatisrasa",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "entity": "company",
+            "value": "rasa",
+            "extractor": "ner_crf"
+          }
+        ],
+        "text": "what is rasa"
+      },
+      {
+        "intent": "ask_whatisrasa",
+        "text": "How does Rasa work? "
+      },
+      {
+        "intent": "ask_whatisrasa",
+        "text": "tell me more about your company"
+      },
+      {
+        "intent": "canthelp",
+        "text": "this is leading to nothing "
+      },
+      {
+        "intent": "canthelp",
+        "text": "nothing else?"
+      },
+      {
+        "intent": "canthelp",
+        "text": "i guess you can't help me then"
+      },
+      {
+        "intent": "canthelp",
+        "text": "you cannot help me with what I want"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [
+      {
+        "name": "company",
+        "elements": "data/company/startups_filtered.csv"
+      }
+    ],
+    "entity_synonyms": []
+  }
+}

@@ -1,0 +1,27 @@
+## intent:restaurant_search
+- Where can I find some [beans](food) for dinnder
+- Do they have [bananas](food)?
+- Find me a market that serves [cherries](food)
+- Does this pizza place have fresh [tomatos](food) or are they canned?
+- [Burritos](food) please, with extra [rice](food) and [guacamole](food)
+- [pizza](food) example?
+- i'm looking for a [sushi](food) place to eat
+- anywhere in the west
+- I want to grab [tacos](food)
+- Let's get something to eat.
+- I am searching for a place nearby
+- i'm looking for a place in the north of town
+- show me a mexican place in the centre with [chana masala](food) my favorite food
+- i am looking for an indian spot called olaolaolaolaolaola
+- search for restaurants
+- anywhere near 18328
+- I want something spicays.
+- Give me something with a good attitude.
+- [Fish](food) is on the menu?
+- what kind of [sausage](food) do they have?
+- Where is the closest restaurant?
+- I love you bot 
+- Could you help me find an [empanada](food) place?
+- Do you have fried [chicken](food)?
+- Help me out here.
+- [Bagels](food) are yum town
