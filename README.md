@@ -9,9 +9,10 @@ This repo contains two demos:
 1.  A simple restaurant example with very few training examples and only one entity.
 2.  A medium-sized company name extraction example with a few thousand examples and several entities.
 
+
 ## Running the demo.
 
-No installation is necessary although you must have [rasa_nlu](https://rasa.com/docs/nlu/) installed and version > `x`.
+No installation is necessary although you must have [rasa_nlu](https://rasa.com/docs/nlu/) installed and version > 0.13.3 or above.
 
 To run one or both of the demos:
 
