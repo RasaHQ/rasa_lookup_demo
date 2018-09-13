@@ -9,13 +9,17 @@ This repo contains two demos:
 1.  A simple restaurant example with very few training examples and only one entity.
 2.  A medium-sized company name extraction example with a few thousand examples and several entities.
 
+## Running the demo.
+
+No installation is necessary although you must have [rasa_nlu](https://rasa.com/docs/nlu/) installed and version > `x`.
+
 To run one or both of the demos:
 
 	python run_lookup.py <demo_key>
 
 where `<demo_key>` is one of `{food, company}`.  If `<demo_key>` is ommitted, it will run both of the demos.
 
-## Code Structure
+### Code Structure
 
 `data/` holds the training data and lookup tables for each of the demos.
 
@@ -39,7 +43,7 @@ You can call this scripy by running
 
 `<lookup_out>` is the name of the file that you'd like to write the filtered list to.
 
-<img src="https://github.com/RasaHQ/regex_phrase_match_demo/blob/master/img/filter_diagram.png?raw=True" width="300">
+<img src="https://github.com/RasaHQ/rasa_lookup_demo/blob/master/img/filter_diagram.png?raw=True" width="300">
 
 ## Speed Testing
 
@@ -52,7 +56,7 @@ This generates random lookup tables and times each component of the training and
 
 See `speed_test/README.md` for more details.
 
-<img src="https://github.com/RasaHQ/regex_phrase_match_demo/blob/master/img/timings.png?raw=True" width="500">
+<img src="https://github.com/RasaHQ/rasa_lookup_demo/blob/master/img/timings.png?raw=True" width="500">
 
 ## Ngrams
 
@@ -64,5 +68,5 @@ This loads two lookup tables, `data/company/pos_ngrams.txt` & `data/company/neg_
 
 This gives the following plot
 
-<img src="https://github.com/RasaHQ/regex_phrase_match_demo/blob/master/img/ngram_robustness.png?raw=True" width="500">
+<img src="https://github.com/RasaHQ/rasa_lookup_demo/blob/master/img/ngram_robustness.png?raw=True" width="500">
 
