@@ -65,7 +65,7 @@ A simple ngrams tester is included and can be run by
 
 	python run_ngrams.py
 
-This loads two lookup tables, `data/company/pos_ngrams.txt` & `data/company/neg_ngrams.txt`, which each containing ngrams that were found to be influential to classifying phrases as company names.  We then compute the f1 score as a function of random noise injected into the entities.  The 'noise' value is the probability of a character flip in each character of each company entity in the test set.
+This loads two lookup tables, `data/company/pos_ngrams.txt` & `data/company/neg_ngrams.txt`, each containing ngrams that were found to be influential to classifying phrases as company names.  We then compute the f1 score as a function of random noise injected into the entities.  The 'noise' value is the probability of a character flip in each character of each company entity in the test set.
 
 This gives the following plot
 
