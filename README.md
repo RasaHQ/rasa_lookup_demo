@@ -1,6 +1,6 @@
 # Phrase Matcher Demo
 
-This is a simple demo of the new lookup table feature in [rasa_nlu](https://rasa.com/docs/nlu/).  See the blog post accompanying this repository at `BLOG.md`.
+This is a simple demo of the new lookup table feature in [rasa_nlu](https://rasa.com/docs/nlu/).  See the blog post accompanying this repository [here](https://medium.com/rasa-blog/entity-extraction-with-the-new-lookup-table-feature-in-rasa-nlu-94c6c30876a3)
 
 The goal is to show how lookup tables may improve entity extraction under certain conditions and also give some advice on using this feature effectively.
 
