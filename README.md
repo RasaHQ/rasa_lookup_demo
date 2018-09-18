@@ -61,7 +61,7 @@ See `speed_test/README.md` for more details.
 
 ## Ngrams
 
-A simple ngrams tester is included and can be runned as 
+A simple ngrams tester is included and can be run by
 
 	python run_ngrams.py
 
