@@ -4,10 +4,8 @@ from rasa_nlu import config
 from rasa_nlu import evaluate
 from rasa_nlu import utils
 
-import os
 import logging
 import re
-import sys
 
 import numpy.random as rd
 import numpy as np
@@ -181,6 +179,7 @@ def print_metrics(metric_list):
         display_metrics(metric_list[-1])
     else:
         raise ValueError("metrics were not parsed correctly.")
+
 
 def display_metrics(metrics):
     """Prints the metrics"""        
