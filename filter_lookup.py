@@ -28,7 +28,8 @@ def filter_list(in_list, scrabble_list):
 		if i % 100 == 0:
 			print('percent done: {} % \t  elements removed: {}'.format(int(1000*i/len(in_list))/10, i - len(filtered_list)))
 		if s.lower() not in scrabble_list:
-			if any([word.lower() not in scrabble_list for word in s]):
+			words = s.split(' ')
+			if any([word.lower() not in scrabble_list for word in words]):
 				filtered_list.add(s)
 	filtered_list = list(filtered_list)
 	print('now have {} elements, removed {}'.format(len(filtered_list),len(in_list)-len(filtered_list)))
