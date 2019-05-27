@@ -46,8 +46,11 @@ def parse_cmi():
 
 	# read in command line args
 	if len(argv) > 1:
-		for i, filename in enumerate(argv):		
-			out_files[i] = filename
+		for i, filename in enumerate(argv):
+			# ignore the script name
+			if i == 0:
+				continue
+			out_files[i-1] = filename
 
 	return tuple(out_files)
 
