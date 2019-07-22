@@ -4,10 +4,8 @@ from rasa_nlu import config
 from rasa_nlu import evaluate
 from rasa_nlu import utils
 
-import os
 import logging
 import re
-import sys
 
 import numpy.random as rd
 import numpy as np
