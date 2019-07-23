@@ -1,5 +1,6 @@
 import csv
 import sys
+from typing import Tuple, Set
 
 """
 This script takes a list of startups and removes
@@ -25,7 +26,7 @@ def write_data(filename, filtered_startups):
         writer.writerows([filtered_startups])
 
 
-def filter_list(in_list, scrabble_list):
+def filter_list(in_list: Tuple, scrabble_set: Set):
     filtered_list = set()
     for i, s in enumerate(in_list):
         if i % 100 == 0:
@@ -34,9 +35,9 @@ def filter_list(in_list, scrabble_list):
                     int(1000 * i / len(in_list)) / 10, i - len(filtered_list)
                 )
             )
-        if s.lower() not in scrabble_list:
+        if s.lower() not in scrabble_set:
             words = s.split(" ")
-            if any([word.lower() not in scrabble_list for word in words]):
+            if any([word.lower() not in scrabble_set for word in words]):
                 filtered_list.add(s)
     filtered_list = list(filtered_list)
     print(
@@ -76,6 +77,6 @@ if __name__ == "__main__":
 
     scrabble_list = open_data(scrabble_file)
 
-    filtered_list = filter_list(in_list, scrabble_list)
+    filtered_list = filter_list(tuple(in_list), set(scrabble_list))
 
     write_data(write_file, filtered_list)
