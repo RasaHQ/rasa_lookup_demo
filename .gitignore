@@ -5,3 +5,7 @@ speed_test/tmp/*
 **/.ipynb_checkpoints
 address_demo
 address_data
+data/models/nlu*
+models/nlu*
+img/*
+data/tmp/*
