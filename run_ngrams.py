@@ -1,8 +1,7 @@
-from rasa_nlu.training_data import load_data
-from rasa_nlu.model import Trainer
-from rasa_nlu import config
-from rasa_nlu import evaluate
-from rasa_nlu import utils
+from rasa.nlu.training_data import load_data
+from rasa.nlu.model import Trainer
+from rasa.nlu import config
+from rasa.nlu.test import run_evaluation, cross_validate
 
 import logging
 import re
@@ -65,7 +64,7 @@ def train_test(td_file, config_file, model_dir, key="company", noise=0.1):
 def add_noise(td, key, noise=0.2):
     """with probability 'noise', randomizes each character of company entities"""
     entity = key  # the entity is just the key.
-    for ex in td.training_examples:
+    for ex in tuple(td.training_examples):
         entities = ex.get("entities")
         text = ex.text
         if entities:
@@ -93,12 +92,12 @@ def CV_eval(td_file, config_file, Nfolds=10):
     """trains a model with crossvalidation using the training data and config"""
     td = load_data(td_file)
     configuration = config.load(config_file)
-    evaluate.run_cv_evaluation(td, Nfolds, configuration)
+    cross_validate(td, Nfolds, configuration)
 
 
 def evaluate_model(td_file, model_loc):
     """evaluates the model on the training data."""
-    evaluate.run_evaluation(td_file, model_loc)
+    run_evaluation(td_file, model_loc)
 
 
 def get_path_dicts(key):
